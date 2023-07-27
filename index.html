@@ -44,57 +44,65 @@
 <body class="font-lato" >
     
     <header>
-        <nav class=" relative max-w-screen-xl  mx-auto px-8 md:px-16 lg:px-24 py-5   py-7 ">
-
-            <div class="navbar bg-[#F85559] rounded-[600px]">
-                <div class="navbar-start">
-                    <div class=""> 
-                    
-                          <ul tabindex="0" class="  hidden lg:flex text-xl text-[#FFF] flex gap-7 px-5 ">
-                            <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All Fruits</a></li>
-                          </ul>
+      <nav class=" max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24  my-10 " >
+            
+        <div class="navbar  bg-[#F85559] mt-10 rounded-full   ">
+            <div class="flex-1 flex-row-reverse lg:flex-row justify-between lg:justify-between">
+                <div class="navbar-start hidden lg:flex">
+                    <ul class="menu text-base menu-horizontal px-1 text-white">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
                         
-                    </div>
-                 <div class="dropdown">
-                  <label tabindex="0" class="btn lg:hidden btn-ghost btn-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                    </label>
-                    <ul tabindex="0" class="text-xl menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Home</a></li>
-                      <li><a>About Us</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>All Fruits</a></li>
                     </ul>
-                  </div>
-                  
                 </div>
-                <div class="navbar-center gap-1">
-                    <img src="./images/logo.png" alt="">
-                  <a class=" text-4xl font-bold text-[#FFF]  ">Fruit Burst</a>
-                  
-                </div>
-                <div class="navbar-end">
-                    <button class="btn hidden lg:block btn-ghost">
-                        <label for="">
-                            <input class="py-5 p-4 h-10 w-56 rounded-[50px]" type="search" name="" placeholder="Search here"  id="">
-                           
-                            
-                        </label>
-
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm left-[-50%]  dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-[100px]">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
                        
-                        
-                      </button>
+                    </ul>
                 </div>
-              </div>
+                 
+                   <div class=" navbar-center flex">
+                    <img src="images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl font-lato lg:text-4xl text-white">Fruit Burst</a>
+                   </div>
 
-              <div class=" hidden lg:block absolute right-36 -mt-12"> <i class="fa-solid fa-magnifying-glass"></i></div>
-        </nav>
+                  
+                   <div class="navbar-end flex justify-end hidden lg:inline-block lg:text-right ">
+                   
+                                <button class="btn  btn-ghost">
+                                    <label for="">
+                                        <input type="text" placeholder="Search" class="input  input-bordered rounded-full  w-24 md:w-auto" />
+                                       
+                                        
+                                    </label>
+                                   
+                                    
+                                  </button>
+                            </div>
+                           
+                                
+                </div>
+                   
+            </div>
+         
+            <div class=" hidden lg:block absolute right-44 -mt-12"> <i class="fa-solid fa-magnifying-glass"></i></div>
+    </nav>
        
         <!-- slider or carousel -->
-      <section class="relative max-w-screen-xl min-h-[calc(100vh-76px)]  mx-auto px-8 md:px-16 lg:px-24 py-5 -mt-5">
+      <section class="relative max-w-screen-xl min-h-[calc(100vh-60px)]  mx-auto px-8 md:px-16 lg:px-24 py-5 ">
      <div class="carousel w-full ">
       <!-- carousel 01 -->
 
